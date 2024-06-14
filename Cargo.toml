@@ -2,7 +2,7 @@
 name = "quote-generator"
 version = "1.0.0"
 edition = "2021"
-keywords = ["quote" , "generator", "motivationnal quote"]
+keywords = ["quote" , "generator", "motivationnal_quote"]
 license = "MIT"
 authors = ["Clairmont RAJAONARISON clairmont.rajaonarison@gmail.com"]
 description = "This project is a `.deb` package for generating random quote thanks to the `dummyjson` API"
