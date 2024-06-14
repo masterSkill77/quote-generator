@@ -1,6 +1,6 @@
 [package]
 name = "quote-generator"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
 keywords = ["quote" , "generator", "motivationnal quote"]
 license = "MIT"
