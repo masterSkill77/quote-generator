@@ -17,6 +17,5 @@ serde_json = "1.0"
 [package.metadata.deb]
 
 name = "quote-generator"
-description = "This project is a `.deb` package for generating random quote thanks to the `dummyjson` API"
 maintainer = "Clairmont RAJAONARISON <clairmont.rajaonarison@gmail.com>"
 copyright = "2024, Clairmont RAJAONARISON <clairmont.rajaonarison@gmail.com>"
