@@ -1,13 +1,10 @@
 mod quote;
-use quote::Quote;
+use quote::fetch_random_quote;
 use std::error::Error;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
-    let quote = reqwest::get("https://dummyjson.com/quotes/random")
-        .await?
-        .json::<Quote>()
-        .await?;
+    let quote = fetch_random_quote().await?;
     quote.print();
     Ok(())
 }
