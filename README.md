@@ -35,16 +35,15 @@ cargo run
 
 ### Installing from binary file
 
-````bash
+```bash
 curl -fsSL https://cdn.jsdelivr.net/gh/masterSkill77/quote-generator@master/install.sh | sh
 ```
-
 
 ## How to run the program
 
 ```bash
 quote-generator
-````
+```
 
 ### Thanks to
 
