@@ -11,7 +11,7 @@ pub struct Quote {
 
 impl Quote {
     pub fn print(self: &Quote) {
-        println!("{} - {}", self.quote, self.author)
+        println!("\"{}\" - {}", self.quote, self.author)
     }
 }
 
